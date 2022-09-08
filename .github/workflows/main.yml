@@ -17,4 +17,4 @@ jobs:
         server: ftp.drupaldomain.online
         username: ${{ secrets.ftp_master_user }}
         password: ${{ secrets.ftp_master_password }}
-        server_dir: /home/drupaldo/public_html
+        server-dir: /home/drupaldo/public_html
