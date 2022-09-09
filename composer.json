@@ -22,7 +22,8 @@
         "drupal/core-recommended": "^9.4",
         "drupal/core-vendor-hardening": "^9.4",
         "drupal/geolocation": "^3.10",
-        "drupal/profile": "^1.4"
+        "drupal/profile": "^1.4",
+        "drupal/select_registration_roles": "^2.0@beta"
     },
     "conflict": {
         "drupal/drupal": "*"

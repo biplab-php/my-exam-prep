@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d04bb2a0abd96b2938cd528f768e87a1",
+    "content-hash": "9cccd635a1c42b4ad12c3e0628d01041",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1338,6 +1338,54 @@
             "homepage": "http://drupal.org/project/profile",
             "support": {
                 "source": "https://git.drupalcode.org/project/profile"
+            }
+        },
+        {
+            "name": "drupal/select_registration_roles",
+            "version": "2.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/select_registration_roles.git",
+                "reference": "2.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/select_registration_roles-2.0.0-beta1.zip",
+                "reference": "2.0.0-beta1",
+                "shasum": "70ca9b3ee64bc8cded09e0ee8278e75c7ec860f6"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-beta1",
+                    "datestamp": "1637825738",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "lamp5",
+                    "homepage": "https://www.drupal.org/user/2870321"
+                },
+                {
+                    "name": "sushilck",
+                    "homepage": "https://www.drupal.org/user/2291724"
+                }
+            ],
+            "description": "Allow admin to set which roles will be available to users on registration form.",
+            "homepage": "https://www.drupal.org/project/select_registration_roles",
+            "support": {
+                "source": "https://git.drupalcode.org/project/select_registration_roles"
             }
         },
         {
@@ -5258,7 +5306,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/select_registration_roles": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
