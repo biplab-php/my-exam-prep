@@ -16,10 +16,10 @@ jobs:
       with:
         server: ftp.drupaldomain.online
         username: ${{ secrets.ftp_master_user }}
-        password: ${{ secrets.ftp_master_password }}
-        server-dir: /home/drupaldo/public_html/
+        password: ${{ secrets.ftp_master_password }}        
         exclude: |
                  **/.git*
                  **/.git*/**
+                 **/.github*/**
                  **/core*
                  **/core*/**
