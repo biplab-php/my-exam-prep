@@ -18,3 +18,8 @@ jobs:
         username: ${{ secrets.ftp_master_user }}
         password: ${{ secrets.ftp_master_password }}
         server-dir: /home/drupaldo/public_html/
+        exclude: |
+                 **/.git*
+                 **/.git*/**
+                 **/core*
+                 **/core*/**
