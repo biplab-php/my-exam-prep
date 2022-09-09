@@ -16,10 +16,12 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/address": "^1.11",
         "drupal/core-composer-scaffold": "^9.4",
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/core-vendor-hardening": "^9.4",
+        "drupal/geolocation": "^3.10",
         "drupal/profile": "^1.4"
     },
     "conflict": {
