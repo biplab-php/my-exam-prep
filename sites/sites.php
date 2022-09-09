@@ -58,3 +58,4 @@
  
  $sites['dev-admin.drupaldomain.online'] = 'dev-admin.drupaldomain.online';
  $sites['stage-admin.drupaldomain.online'] = 'stage-admin.drupaldomain.online';
+ //multisite setup
