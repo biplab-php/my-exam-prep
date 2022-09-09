@@ -1,0 +1,14 @@
+name: REST Email Login
+type: module
+description: Allows user to REST login using email instead of username
+package: CodaBella
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - rest
+  - user
+
+# Information added by Drupal.org packaging script on 2020-10-25
+version: '8.x-1.1'
+project: 'rest_mail_login'
+datestamp: 1603645455

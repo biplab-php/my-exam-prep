@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Clean restful api.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function clean_node_api_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ctc module.
+    case 'help.page.clean_node_api':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Clean RESTful Web Services API is just alternative for default drupal APIs that is not clean.') . '</p>';
+      return $output;
+  }
+}

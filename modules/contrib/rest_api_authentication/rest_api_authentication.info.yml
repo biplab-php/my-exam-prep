@@ -1,0 +1,15 @@
+name: 'miniOrange REST API Authentication'
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+description: 'Drupal REST API Authentication module secures the unauthorized access to your Drupal site using different authentication credentials verification.'
+configure: rest_api_authentication.auth_settings
+# Information added by Drupal.org packaging script on 2022-03-01
+# version: '8.x-1.1'
+# project: 'rest_api_authentication'
+# datestamp: 1646167915
+
+# Information added by Drupal.org packaging script on 2022-06-22
+version: '8.x-1.11'
+project: 'rest_api_authentication'
+datestamp: 1655896212

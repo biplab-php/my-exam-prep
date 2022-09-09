@@ -1,0 +1,19 @@
+#********************************
+# Web Services #
+#********************************
+
+# REST APIs Routing
+Api_v3.getNode:
+  path: '_api/node/{node}'
+  defaults: { _controller: '\Drupal\clean_node_api\Controller\Node::getNode' }
+  methods:  [GET]
+  requirements:
+#    there is no access restriction because this route just return public node values as GET method .
+    _access: 'TRUE'
+  formats:
+    - json
+  options:
+    parameters:
+      node:
+        type: entity:node
+#********************************

@@ -1,0 +1,13 @@
+name: Clean restful api - Nodes
+description: Clean RESTful Web Services API is just alternative for default drupal APIs that is not clean.
+package: Clean RESTful
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies :
+  - drupal:paragraphs
+
+# Information added by Drupal.org packaging script on 2020-02-28
+version: '8.x-1.7'
+project: 'clean_node_api'
+datestamp: 1582888877

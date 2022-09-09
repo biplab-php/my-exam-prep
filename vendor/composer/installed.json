@@ -796,6 +796,53 @@
             "install-path": "../../modules/contrib/address"
         },
         {
+            "name": "drupal/clean_node_api",
+            "version": "1.7.0",
+            "version_normalized": "1.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/clean_node_api.git",
+                "reference": "8.x-1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/clean_node_api-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "8e76ed6b348eb72e8135b3bf42bbe605b593d4bd"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.7",
+                    "datestamp": "1582888875",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "meysamzandy",
+                    "homepage": "https://www.drupal.org/user/3575559"
+                }
+            ],
+            "description": "Clean RESTful Web Services API is just alternative for default drupal APIs that is not clean.",
+            "homepage": "https://www.drupal.org/project/clean_node_api",
+            "support": {
+                "source": "https://git.drupalcode.org/project/clean_node_api"
+            },
+            "install-path": "../../modules/contrib/clean_node_api"
+        },
+        {
             "name": "drupal/core",
             "version": "9.4.5",
             "version_normalized": "9.4.5.0",
@@ -1386,6 +1433,371 @@
                 "source": "https://git.drupalcode.org/project/profile"
             },
             "install-path": "../../modules/contrib/profile"
+        },
+        {
+            "name": "drupal/rest_api_access_token",
+            "version": "1.6.0",
+            "version_normalized": "1.6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rest_api_access_token.git",
+                "reference": "8.x-1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rest_api_access_token-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "404dd271cba3cd969fc4eaa8035ccf92773ffc18"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.6",
+                    "datestamp": "1614004617",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "marcinkazmierski",
+                    "homepage": "https://www.drupal.org/user/3616253"
+                }
+            ],
+            "description": "REST API Access Token module.",
+            "homepage": "https://www.drupal.org/project/rest_api_access_token",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rest_api_access_token"
+            },
+            "install-path": "../../modules/contrib/rest_api_access_token"
+        },
+        {
+            "name": "drupal/rest_api_authentication",
+            "version": "1.11.0",
+            "version_normalized": "1.11.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rest_api_authentication.git",
+                "reference": "8.x-1.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rest_api_authentication-8.x-1.11.zip",
+                "reference": "8.x-1.11",
+                "shasum": "eb88e5d9384dd532b292c274ff9de56eab04d812"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.11",
+                    "datestamp": "1655896210",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "arsh244",
+                    "homepage": "https://www.drupal.org/user/3619504"
+                },
+                {
+                    "name": "gauravsood91",
+                    "homepage": "https://www.drupal.org/user/3288491"
+                }
+            ],
+            "description": "Drupal REST API Authentication module secures the unauthorized access to your Drupal site using different authentication credentials verification.",
+            "homepage": "https://www.drupal.org/project/rest_api_authentication",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rest_api_authentication"
+            },
+            "install-path": "../../modules/contrib/rest_api_authentication"
+        },
+        {
+            "name": "drupal/rest_log",
+            "version": "2.0.3",
+            "version_normalized": "2.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rest_log.git",
+                "reference": "2.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rest_log-2.0.3.zip",
+                "reference": "2.0.3",
+                "shasum": "f41b57bbe54f91c7d9809ff4d80e39987cd03681"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.3",
+                    "datestamp": "1640038633",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "xiukun.zhou",
+                    "homepage": "https://www.drupal.org/user/2239768"
+                },
+                {
+                    "name": "zviryatko",
+                    "homepage": "https://www.drupal.org/user/1592776"
+                }
+            ],
+            "description": "Logs all REST responses and errors.",
+            "homepage": "https://www.drupal.org/project/rest_log",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rest_log"
+            },
+            "install-path": "../../modules/contrib/rest_log"
+        },
+        {
+            "name": "drupal/rest_mail_login",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rest_mail_login.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rest_mail_login-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "4ce97882679ef3271e7bcf8d69422ff39d6659e3"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1603645454",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ahmed66amd",
+                    "homepage": "https://www.drupal.org/user/3572198"
+                }
+            ],
+            "description": "Allows user to REST login using email instead of username",
+            "homepage": "https://www.drupal.org/project/rest_mail_login",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rest_mail_login"
+            },
+            "install-path": "../../modules/contrib/rest_mail_login"
+        },
+        {
+            "name": "drupal/rest_password",
+            "version": "8.1.12",
+            "version_normalized": "8.1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rest_password.git",
+                "reference": "8.1.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rest_password-8.1.12.zip",
+                "reference": "8.1.12",
+                "shasum": "7c58e43e71f50ff9693cf9ef10570b1a26d74066"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.1.12",
+                    "datestamp": "1661316174",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "glynster",
+                    "homepage": "https://www.drupal.org/user/407333"
+                },
+                {
+                    "name": "taggartj",
+                    "homepage": "https://www.drupal.org/user/786470"
+                }
+            ],
+            "description": "Rest service to request forgotten password.",
+            "homepage": "https://www.drupal.org/project/rest_password",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rest_password"
+            },
+            "install-path": "../../modules/contrib/rest_password"
+        },
+        {
+            "name": "drupal/rest_register_verify_email",
+            "version": "1.7.0",
+            "version_normalized": "1.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rest_register_verify_email.git",
+                "reference": "8.x-1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rest_register_verify_email-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "5e92a5e79fca93f4d4cacfab03d289a6a93a5a1a"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.7",
+                    "datestamp": "1661316118",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "glynster",
+                    "homepage": "https://www.drupal.org/user/407333"
+                },
+                {
+                    "name": "jdiza",
+                    "homepage": "https://www.drupal.org/user/3579552"
+                },
+                {
+                    "name": "matteking",
+                    "homepage": "https://www.drupal.org/user/3606832"
+                },
+                {
+                    "name": "mogollon22",
+                    "homepage": "https://www.drupal.org/user/577986"
+                }
+            ],
+            "description": "Register Users via REST endpoint, validating email address with custom token",
+            "homepage": "https://www.drupal.org/project/rest_register_verify_email",
+            "support": {
+                "source": "https://git.drupalcode.org/project/rest_register_verify_email"
+            },
+            "install-path": "../../modules/contrib/rest_register_verify_email"
+        },
+        {
+            "name": "drupal/rest_views",
+            "version": "2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/rest_views.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/rest_views-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "9b60dcea756bf3bba0a318d6728c5464762eccb5"
+            },
+            "require": {
+                "drupal/core": "^8.7 || ^9",
+                "php": "^7.1 || ^8"
+            },
+            "require-dev": {
+                "drupal/entity_reference_revisions": "*",
+                "drupal/geolocation": "*",
+                "drupal/search_api": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1638038241",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph Burschka",
+                    "homepage": "https://drupal.org/u/cburschka",
+                    "email": "christoph@burschka.de",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Expose fields and entity references in REST view displays.",
+            "homepage": "https://www.drupal.org/project/rest_views",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/rest_views",
+                "issues": "https://www.drupal.org/project/issues/rest_views"
+            },
+            "install-path": "../../modules/contrib/rest_views"
         },
         {
             "name": "drupal/restui",

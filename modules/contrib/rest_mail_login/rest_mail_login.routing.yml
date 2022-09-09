@@ -1,0 +1,8 @@
+rest_mail_login.login.http:
+  path: '/user/email-login'
+  defaults:
+    _controller: Drupal\rest_mail_login\Controller\RestMailLoginController::login
+  methods: [POST]
+  requirements:
+    _user_is_logged_in: 'FALSE'
+    _format: 'json'
