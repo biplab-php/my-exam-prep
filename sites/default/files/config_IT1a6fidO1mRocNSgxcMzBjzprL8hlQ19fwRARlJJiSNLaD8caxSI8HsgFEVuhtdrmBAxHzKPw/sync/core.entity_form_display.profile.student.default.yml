@@ -1,0 +1,24 @@
+uuid: b6b55be5-918b-408d-b493-ac904b846065
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.student.field_basic_information
+    - profile.type.student
+id: profile.student.default
+targetEntityType: profile
+bundle: student
+mode: default
+content:
+  field_basic_information:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  is_default: true

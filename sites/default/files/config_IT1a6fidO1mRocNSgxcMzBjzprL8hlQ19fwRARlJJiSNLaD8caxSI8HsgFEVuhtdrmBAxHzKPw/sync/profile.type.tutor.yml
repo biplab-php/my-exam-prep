@@ -1,0 +1,13 @@
+uuid: c5650fd5-1e3a-4640-9ac3-e1a34724a850
+langcode: en
+status: true
+dependencies: {  }
+id: tutor
+label: Tutor
+display_label: Tutor
+multiple: false
+registration: true
+roles:
+  tutor: tutor
+allow_revisions: false
+new_revision: false

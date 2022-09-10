@@ -1,0 +1,21 @@
+uuid: 51220cb0-71e8-485f-8db6-e1264d215d18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_phone
+    - profile.type.basic_profile
+  module:
+    - telephone
+id: profile.basic_profile.field_phone
+field_name: field_phone
+entity_type: profile
+bundle: basic_profile
+label: Phone
+description: 'Please enter your mobile number'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

@@ -1,0 +1,19 @@
+uuid: c165da6f-6f34-4428-8a2e-45653d12e425
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_email
+    - profile.type.basic_profile
+id: profile.basic_profile.field_email
+field_name: field_email
+entity_type: profile
+bundle: basic_profile
+label: 'Email Address'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

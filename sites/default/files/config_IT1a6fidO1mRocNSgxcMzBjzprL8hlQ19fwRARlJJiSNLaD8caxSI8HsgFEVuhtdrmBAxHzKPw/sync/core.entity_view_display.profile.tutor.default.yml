@@ -1,0 +1,21 @@
+uuid: 15bed77e-76d3-48bd-ad78-b5a5c8acf020
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.tutor.field_basic_information
+    - profile.type.tutor
+id: profile.tutor.default
+targetEntityType: profile
+bundle: tutor
+mode: default
+content:
+  field_basic_information:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

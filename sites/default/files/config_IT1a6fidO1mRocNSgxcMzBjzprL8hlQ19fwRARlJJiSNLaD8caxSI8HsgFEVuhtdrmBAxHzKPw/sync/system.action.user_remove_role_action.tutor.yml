@@ -1,0 +1,14 @@
+uuid: d69cda63-0826-429d-87f5-d9e3eada38fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.tutor
+  module:
+    - user
+id: user_remove_role_action.tutor
+label: 'Remove the tutor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: tutor

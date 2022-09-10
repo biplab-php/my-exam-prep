@@ -1,0 +1,29 @@
+uuid: 05dfe5be-37c3-40d5-964c-620f0ac39aca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_basic_information
+    - profile.type.basic_profile
+    - profile.type.student
+id: profile.student.field_basic_information
+field_name: field_basic_information
+entity_type: profile
+bundle: student
+label: 'Basic Information'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:profile'
+  handler_settings:
+    target_bundles:
+      basic_profile: basic_profile
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

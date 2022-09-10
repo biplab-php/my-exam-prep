@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^9.4",
         "drupal/core-vendor-hardening": "^9.4",
         "drupal/geolocation": "^3.10",
+        "drupal/key_auth": "^2.0",
         "drupal/profile": "^1.4",
         "drupal/rest_api_access_token": "^1.6",
         "drupal/rest_api_authentication": "^1.11",
@@ -32,7 +33,11 @@
         "drupal/rest_register_verify_email": "^1.7",
         "drupal/rest_views": "^2.0",
         "drupal/restui": "^1.21",
-        "drupal/select_registration_roles": "^2.0@beta"
+        "drupal/rules_api_post": "^2.0@beta",
+        "drupal/search_api": "^1.25",
+        "drupal/search_api_autocomplete": "^1.6",
+        "drupal/select_registration_roles": "^2.0@beta",
+        "drupal/telephone_validation": "^2.3"
     },
     "conflict": {
         "drupal/drupal": "*"

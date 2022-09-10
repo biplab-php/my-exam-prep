@@ -1,0 +1,26 @@
+uuid: a3665fe4-7fc9-4684-a353-9f2af72e98e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_address_line
+    - profile.type.basic_profile
+  module:
+    - address
+id: profile.basic_profile.field_address_line
+field_name: field_address_line
+entity_type: profile
+bundle: basic_profile
+label: 'Address Line'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_countries:
+    US: US
+  langcode_override: ''
+  field_overrides: {  }
+  fields: {  }
+field_type: address

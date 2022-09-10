@@ -1,0 +1,24 @@
+uuid: cbdbdd18-a4b8-46db-8283-5fd6868a033c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.tutor.field_basic_information
+    - profile.type.tutor
+id: profile.tutor.default
+targetEntityType: profile
+bundle: tutor
+mode: default
+content:
+  field_basic_information:
+    type: entity_reference_autocomplete
+    weight: 26
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  is_default: true

@@ -1,0 +1,19 @@
+uuid: e99fe9be-0ebf-45dd-b8d6-818d85e8c722
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_full_name
+    - profile.type.basic_profile
+id: profile.basic_profile.field_full_name
+field_name: field_full_name
+entity_type: profile
+bundle: basic_profile
+label: 'Full Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

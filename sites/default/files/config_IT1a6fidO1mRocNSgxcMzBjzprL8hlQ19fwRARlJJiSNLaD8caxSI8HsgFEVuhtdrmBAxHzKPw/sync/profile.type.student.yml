@@ -1,0 +1,13 @@
+uuid: 0c3983a1-2b59-4762-9e51-33ab1133cb12
+langcode: en
+status: true
+dependencies: {  }
+id: student
+label: Student
+display_label: Student
+multiple: true
+registration: false
+roles:
+  student: student
+allow_revisions: false
+new_revision: false

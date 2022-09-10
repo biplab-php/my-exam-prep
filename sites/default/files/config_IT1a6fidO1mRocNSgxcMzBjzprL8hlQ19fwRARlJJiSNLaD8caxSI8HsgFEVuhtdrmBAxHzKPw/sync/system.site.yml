@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 24d82406-005a-489b-b9f9-6b0c85fc5db0
+name: 'My Exam Preparation'
+mail: my-exam@drupaldomain.online
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: my-exam@drupaldomain.online

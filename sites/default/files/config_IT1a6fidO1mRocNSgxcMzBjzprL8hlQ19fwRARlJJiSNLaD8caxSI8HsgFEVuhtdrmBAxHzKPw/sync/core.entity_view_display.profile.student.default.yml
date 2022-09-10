@@ -1,0 +1,21 @@
+uuid: 158a7c37-67be-4cde-893a-420ca33cf94d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.student.field_basic_information
+    - profile.type.student
+id: profile.student.default
+targetEntityType: profile
+bundle: student
+mode: default
+content:
+  field_basic_information:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,17 @@
+uuid: 07c3164a-3130-46e0-a07b-5f7c274d5fbb
+langcode: en
+status: true
+dependencies: {  }
+id: basic_profile
+label: 'Basic Profile'
+display_label: 'Basic Profile'
+multiple: true
+registration: true
+roles:
+  authenticated: authenticated
+  content_editor: content_editor
+  administrator: administrator
+  tutor: tutor
+  student: student
+allow_revisions: false
+new_revision: false

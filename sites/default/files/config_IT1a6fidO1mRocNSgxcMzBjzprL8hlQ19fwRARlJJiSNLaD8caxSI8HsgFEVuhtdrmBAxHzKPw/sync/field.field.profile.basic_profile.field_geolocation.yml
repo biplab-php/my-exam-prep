@@ -1,0 +1,21 @@
+uuid: b4fa22cb-9c57-42f3-b56c-76b33951dfed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_geolocation
+    - profile.type.basic_profile
+  module:
+    - geolocation
+id: profile.basic_profile.field_geolocation
+field_name: field_geolocation
+entity_type: profile
+bundle: basic_profile
+label: Geolocation
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation
